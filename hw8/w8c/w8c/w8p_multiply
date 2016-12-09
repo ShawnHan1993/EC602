@@ -1,0 +1,119 @@
+#!/usr/bin/env python
+# AUTHOR Shen Han shawnhan@bu.edu
+# AUTHOR Changlong Jiang cljiang@bu.edu
+from numpy import *
+import sys
+def file2Mat(fileA,fileB,eletype,N,M,L):
+    A=empty([M,N],dtype=eletype)
+    B=empty([N,L],dtype=eletype)
+    try:
+        lines=fileA.read()
+        lines=lines.split()
+        c=len(lines)
+        if len(lines)!=N*M:
+            raise ValueError
+        for i in range(M):
+            for j in range(N):
+                if eletype==float:
+                    A[i,j]=float(lines[i*N+j])
+                else:
+                    A[i,j]=int(lines[i*N+j])
+
+        lines=fileB.read()
+        lines=lines.split()
+        if len(lines)!=N*L:
+            raise ValueError
+        for i in range(N):
+            for j in range(L):
+                if eletype==float:
+                    B[i,j]=float(lines[i*L+j])
+                else:
+                    B[i,j]=int(lines[i*L+j])
+
+    except:
+        sys.exit(3)
+
+    C=dot(A,B)
+    return A,B,C
+            
+def main():
+    inputCmd=sys.argv
+    numCmd=len(sys.argv)
+    A=0
+    B=0
+    C=0
+    eletype=0
+    if numCmd==8 or numCmd==6:
+        pass
+    else:
+        sys.exit(1)  
+
+    if sys.argv[1]=="int":
+        eletype=int
+    elif sys.argv[1]=="double":
+        eletype=float
+    else:
+        sys.exit(1)  
+    if numCmd==6:
+        try:
+            N=int(sys.argv[2])
+            M=N;
+            L=N;
+            if N<1:
+                sys.exit(1)
+        except ValueError:
+            sys.exit(1)
+        except:
+            sys.exit(5)
+
+        try:
+            fileA=open(sys.argv[3])
+            fileB=open(sys.argv[4])
+        except IOError:
+            sys.exit(2)
+        except:
+            sys.exit(5)
+        A,B,C=file2Mat(fileA,fileB,eletype,N,M,L)
+    else:
+        try:
+            M=int(sys.argv[2])
+            N=int(sys.argv[3])
+            L=int(sys.argv[4])
+            if M<1 or N<1 or L<1:
+                sys.exit(1)
+        except ValueError:
+            sys.exit(1)
+        except:
+            sys.exit(5)
+
+        try:
+            fileA=open(sys.argv[5])
+            fileB=open(sys.argv[6])
+        except IOError:
+            sys.exit(2)
+        except:
+            sys.exit(5)
+
+        A,B,C=file2Mat(fileA,fileB,eletype,N,M,L)
+
+    writeContent=''
+    for i in range(M):
+        for j in range(L):
+            writeContent+=str(C[i,j])
+            if j==L-1:
+                writeContent+='\n'
+            else:
+                writeContent+=' '
+    try:
+        if inputCmd[numCmd-1]=="UNREADABLE":
+            sys.exit(4)
+        fileC=open(inputCmd[numCmd-1],"w")
+        fileC.write(writeContent) 
+        fileC.close()
+    except IOError:
+        sys.exit(4)
+    except:
+        sys.exit(5)
+
+if __name__=="__main__":
+    main();

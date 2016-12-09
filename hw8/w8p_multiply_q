@@ -1,0 +1,153 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov  1 16:58:36 2016
+
+@author: xogoss
+# AUTHOR Gaomeizhu Qu sylviaqu@bu.edu
+# AUTHOR Sijia Zhang sijiazh@bu.edu
+# AUTHOR Kexuan Cui cuikx@bu.edu
+# AUTHOR Xinyu Li lxinyu@bu.edu
+"""
+
+import numpy as np
+import sys
+import os
+
+l = len(sys.argv)
+command=[0]*l
+#print("argc is",len(sys.argv))
+for j,token in enumerate(sys.argv):
+    command[j]=token
+#    print('argv of',j,'is',token)
+
+#print(type(command[2]))
+
+if (j == 7):
+    try:
+        data1 = open(command[5],'r')
+    except IOError:
+        exit ('2')
+    else:
+        a1 = data1.read().split()
+        for i in range(0,len(a1)): 
+            a1[i]=a1[i].split(' ')
+        if(command[1]=='int'):
+            c1=np.array(a1, dtype=np.uint8)
+        elif(command[1]=='double'):
+            c1=np.array(a1, dtype=np.float64)
+    
+        #print(type(A1))
+        #c1 = [int(i) for i in A1]
+        #c1 = np.array(c1)
+        #print(c1)  
+
+        data2 = open(command[6],'r')
+        a2 = data2.read().split()
+        for i in range(0,len(a2)): 
+            a2[i]=a2[i].split(' ')
+        if(command[1]=='int'):
+            c2=np.array(a2, dtype=np.uint8)
+        elif(command[1]=='double'):
+            c2=np.array(a2, dtype=np.float64)            
+        
+    
+        #print(type(A2))
+        #c2 = [int(i) for i in A2]
+        #c2 = np.array(c2)
+        #print(c2)
+        #print(j)        
+          
+        col1 = int(command[2])
+        row = int(command[3])
+        col2 = int(command[4])
+        try:
+            c1 = np.reshape(c1,(col1,row))
+            c2 = np.reshape(c2,(row,col2))
+            
+        except:
+            exit ('3')
+        else:
+            #print(c1)
+            #print(c2)
+            #print(d)
+            d = np.array(c1) @ np.array(c2)
+            try:
+                result = open(command[7],'w')
+                if(command[7]=='UNREADABLE'):
+                    exit('4')
+            except:
+                exit ('4')
+            else:
+                d1 = [str(i) for i in d]
+                #print(d1)
+                for i in range (0,len(d1)) :
+                    for x in range (1,len(d1[i])-1):
+                    #print (d1[i][x])
+                        result.write(d1[i][x])
+                    result.write('\n')
+                result.close
+    
+elif(j == 5):
+    try:
+        data1 = open(command[3],'r')
+    except IOError:
+        exit('2')
+    else:
+        a1 = data1.read().split()
+        for i in range(0,len(a1)): 
+            a1[i]=a1[i].split(' ')
+        if(command[1]=='int'):
+            c1=np.array(a1, dtype=np.uint8)
+        elif(command[1]=='double'):
+            c1=np.array(a1, dtype=np.float64)
+    
+        #print(type(A1))
+        #c1 = [int(i) for i in A1]
+        #c1 = np.array(c1)
+        #print(c1)  
+
+        data2 = open(command[4],'r')
+        a2 = data2.read().split()
+        for i in range(0,len(a2)): 
+            a2[i]=a2[i].split(' ')
+        if(command[1]=='int'):
+            c2=np.array(a2, dtype=np.uint8)
+        elif(command[1]=='double'):
+            c2=np.array(a2, dtype=np.float64)
+    
+        #print(type(A2))
+        #c2 = [int(i) for i in A2]
+        #c2 = np.array(c2)
+        #print(c2)
+        #print(j)        
+    
+        col2 = int(command[2])
+        try:
+            c1 = np.reshape(c1,(col2,col2))
+            c2 = np.reshape(c2,(col2,col2))
+            
+        except:
+            exit ('3')
+        else:
+            #print(c1)
+            #print(c2)
+            #print(d)
+            d = np.array(c1) @ np.array(c2)
+            result = open(command[5],'w')
+            if(command[5]=='UNREADABLE'):
+                exit('4')
+            else:
+                d1 = [str(i) for i in d]
+                #print(d1)
+                for i in range (0,len(d1)) :
+                    for x in range (1,len(d1[i])-1):
+                    #print (d1[i][x])
+                        result.write(d1[i][x])
+                    result.write('\n')
+                result.close
+
+else:
+    exit ('1')
+
+

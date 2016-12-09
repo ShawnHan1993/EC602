@@ -1,0 +1,172 @@
+﻿  w9_wordplayer.cpp
+d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(35): warning C4018: '>': signed/unsigned mismatch
+d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(71): warning C4018: '<': signed/unsigned mismatch
+d:\work\visualstudio\vc\include\xtree(1655): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  d:\work\visualstudio\vc\include\xtree(1086): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *
+          ]
+  d:\work\visualstudio\vc\include\xtree(1085): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *
+          ]
+  d:\work\visualstudio\vc\include\map(213): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<int &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<int &&> &&,std::tuple<> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  d:\work\visualstudio\vc\include\map(213): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<int &&>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,const std::piecewise_construct_t &,std::tuple<int &&> &&,std::tuple<> &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  d:\work\visualstudio\vc\include\map(245): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::_Try_emplace<int,>(_Keyty &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Keyty=int
+          ]
+  d:\work\visualstudio\vc\include\map(244): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::_Try_emplace<int,>(_Keyty &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Keyty=int
+          ]
+  d:\work\visualstudio\vc\include\map(178): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::try_emplace<>(int &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+  d:\work\visualstudio\vc\include\map(178): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>::try_emplace<>(int &&)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>
+          ]
+  d:\work\visualstudio\vc\include\map(177): note: while compiling class template member function 'std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>> &std::map<int,std::map<_Kty,std::vector<_Ty,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>,std::less<int>,std::allocator<std::pair<const int,std::map<_Kty,std::vector<_Ty,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>>>>::operator [](int &&)'
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(22): note: see reference to function template instantiation 'std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>> &std::map<int,std::map<_Kty,std::vector<_Ty,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>,std::less<int>,std::allocator<std::pair<const int,std::map<_Kty,std::vector<_Ty,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>>>>::operator [](int &&)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+  d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(18): note: see reference to class template instantiation 'std::map<int,std::map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>,std::less<int>,std::allocator<std::pair<const int,std::map<_Kty,std::vector<_Ty,std::allocator<_Ty>>,std::less<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>>>>' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Kty=std::string
+          ]
+d:\work\visualstudio\vc\include\xtree(1827): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  d:\work\visualstudio\vc\include\xtree(1668): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at<std::pair<const _Kty,_Ty>&,_Nodety>(bool,std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &
+          ]
+  d:\work\visualstudio\vc\include\xtree(1667): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at<std::pair<const _Kty,_Ty>&,_Nodety>(bool,std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &
+          ]
+  d:\work\visualstudio\vc\include\xtree(1086): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *
+          ]
+  d:\work\visualstudio\vc\include\xtree(1085): note: see reference to function template instantiation 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint<std::pair<const _Kty,_Ty>&,std::_Tree_node<std::pair<const _Kty,_Ty>,void *>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *
+          ]
+d:\work\visualstudio\vc\include\xtree(1771): warning C4503: '__LINE__Var': decorated name length exceeded, name was truncated
+  d:\work\visualstudio\vc\include\xtree(1764): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint<std::pair<const _Kty,_Ty>&,_Nodety>(bool,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &
+          ]
+  d:\work\visualstudio\vc\include\xtree(1763): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint<std::pair<const _Kty,_Ty>&,_Nodety>(bool,_Valty,_Nodety)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>,
+              _Nodety=std::_Tree_node<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>,void *> *,
+              _Valty=std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>> &
+          ]
+d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(77): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_hint': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(77): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_at': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+d:\work\16fall_semester\ec602\hw10\w9_wordplayer\w9_wordplayer\w9_wordplayer.cpp(77): warning C4503: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Insert_nohint': decorated name length exceeded, name was truncated
+          with
+          [
+              _Kty=int,
+              _Ty=std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,std::map<std::string,std::vector<std::string,std::allocator<std::string>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<std::string,std::allocator<std::string>>>>>>>
+          ]
+  w9_wordplayer.vcxproj -> D:\work\16fall_Semester\EC602\hw10\w9_wordplayer\Debug\w9_wordplayer.exe
+  w9_wordplayer.vcxproj -> D:\work\16fall_Semester\EC602\hw10\w9_wordplayer\Debug\w9_wordplayer.pdb (Partial PDB)
